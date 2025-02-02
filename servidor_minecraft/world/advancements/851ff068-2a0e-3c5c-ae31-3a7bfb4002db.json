@@ -392,6 +392,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-02-02 02:12:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-02-02 01:43:49 +0000"
@@ -672,7 +678,8 @@
     "criteria": {
       "cooked_porkchop": "2025-02-02 01:50:56 +0000",
       "cooked_mutton": "2025-02-02 01:54:44 +0000",
-      "sweet_berries": "2025-02-02 01:54:51 +0000"
+      "sweet_berries": "2025-02-02 01:54:51 +0000",
+      "cooked_beef": "2025-02-02 02:14:10 +0000"
     },
     "done": false
   },
