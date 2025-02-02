@@ -470,6 +470,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-02-02 02:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-02-02 01:44:32 +0000"
@@ -677,6 +683,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-02-02 01:50:56 +0000",
+      "bread": "2025-02-02 02:24:53 +0000",
       "cooked_mutton": "2025-02-02 01:54:44 +0000",
       "sweet_berries": "2025-02-02 01:54:51 +0000",
       "cooked_beef": "2025-02-02 02:14:10 +0000"
@@ -746,6 +753,12 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-02-02 01:52:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-02-02 02:18:48 +0000"
     },
     "done": true
   },
