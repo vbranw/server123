@@ -10,6 +10,7 @@
       "minecraft:forest": "2025-02-02 01:40:52 +0000",
       "minecraft:taiga": "2025-02-02 01:52:00 +0000",
       "minecraft:river": "2025-02-02 01:51:50 +0000",
+      "minecraft:meadow": "2025-02-02 02:32:13 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-02-02 02:00:39 +0000"
     },
     "done": false
@@ -98,6 +99,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-02-02 02:34:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-02-02 01:58:19 +0000"
@@ -155,6 +162,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-02-02 01:43:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-02 02:31:21 +0000"
     },
     "done": true
   },
@@ -368,6 +381,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-02-02 02:34:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-02-02 02:02:31 +0000"
@@ -544,6 +563,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:zombie": "2025-02-02 02:35:58 +0000",
       "minecraft:drowned": "2025-02-02 01:46:30 +0000"
     },
     "done": false
@@ -590,9 +610,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-02 02:31:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-02-02 01:58:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-02-02 02:34:39 +0000"
     },
     "done": true
   },
@@ -629,6 +661,12 @@
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2025-02-02 01:44:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-02 02:31:21 +0000"
     },
     "done": true
   },
@@ -843,6 +881,12 @@
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2025-02-02 01:54:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-02-02 02:33:07 +0000"
     },
     "done": true
   },
