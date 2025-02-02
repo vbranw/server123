@@ -134,3 +134,8 @@
 [02:36:17] [Server thread/INFO]: naran_jita issued server command: /tpaccept
 [02:48:16] [Server thread/INFO]: david_gumer123 issued server command: /tpa naran_jita
 [02:48:44] [Server thread/INFO]: naran_jita issued server command: /tpaccept
+[02:55:57] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> oe
+[02:55:58] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> la racha
+[02:56:00] [Async Chat Thread - #3/INFO]: [Not Secure] <naran_jita> mande
+[02:58:02] [Server thread/INFO]: naran_jita lost connection: Disconnected
+[02:58:02] [Server thread/INFO]: naran_jita left the game
