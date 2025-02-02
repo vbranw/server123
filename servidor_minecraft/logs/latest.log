@@ -84,3 +84,21 @@
 [01:28:57] [Server thread/INFO]: Done (11.698s)! For help, type "help"
 [01:28:57] [Server thread/INFO]: Timings Reset
 [01:28:57] [Craft Scheduler Thread - 1 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[01:40:50] [User Authenticator #0/INFO]: UUID of player david_gumer123 is 851ff068-2a0e-3c5c-ae31-3a7bfb4002db
+[01:40:51] [Server thread/INFO]: david_gumer123 joined the game
+[01:40:51] [Server thread/INFO]: david_gumer123[/127.37.227.242:56161] logged in with entity id 430 at ([world]-11.5, 71.0, 7.5)
+[01:41:35] [Server thread/INFO]: david_gumer123 lost connection: Disconnected
+[01:41:35] [Server thread/INFO]: david_gumer123 left the game
+[01:42:59] [User Authenticator #1/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[01:43:00] [Server thread/INFO]: naran_jita joined the game
+[01:43:00] [Server thread/INFO]: naran_jita[/127.204.202.113:60083] logged in with entity id 626 at ([world]-25.5, 72.0, 9.5)
+[01:43:04] [User Authenticator #1/INFO]: UUID of player david_gumer123 is 851ff068-2a0e-3c5c-ae31-3a7bfb4002db
+[01:43:05] [Server thread/INFO]: david_gumer123 joined the game
+[01:43:05] [Server thread/INFO]: david_gumer123[/127.37.227.242:43891] logged in with entity id 650 at ([world]-8.036375832812004, 66.0, 10.806062349158353)
+[01:44:32] [Server thread/INFO]: david_gumer123 has made the advancement [Stone Age]
+[01:46:14] [Server thread/INFO]: david_gumer123 was blown up by Creeper
+[01:46:16] [Server thread/INFO]: naran_jita was slain by Drowned
+[01:46:30] [Server thread/INFO]: david_gumer123 has made the advancement [Monster Hunter]
+[01:47:37] [Server thread/INFO]: david_gumer123 has made the advancement [Getting an Upgrade]
+[01:47:59] [Server thread/INFO]: naran_jita has made the advancement [Stone Age]
+[01:48:39] [Server thread/INFO]: Unknown command. Type "/help" for help.
