@@ -326,6 +326,7 @@
       "cooked_porkchop": "2025-02-02 02:01:22 +0000",
       "apple": "2025-02-02 01:54:28 +0000",
       "cooked_chicken": "2025-02-02 01:56:24 +0000",
+      "rotten_flesh": "2025-02-03 03:14:38 +0000",
       "cooked_mutton": "2025-02-03 02:41:31 +0000",
       "sweet_berries": "2025-02-03 02:31:09 +0000"
     },
@@ -1460,6 +1461,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-02-03 02:51:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-02-03 03:07:52 +0000"
     },
     "done": true
   },
