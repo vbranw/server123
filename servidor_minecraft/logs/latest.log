@@ -131,3 +131,12 @@
 [03:02:50] [Server thread/INFO]: david_gumer123 has made the advancement [Diamonds!]
 [03:06:41] [Server thread/INFO]: david_gumer123 has made the advancement [The Cutest Predator]
 [03:32:47] [Server thread/INFO]: david_gumer123 has made the advancement [The Parrots and the Bats]
+[03:42:21] [Server thread/WARN]: naran_jita was kicked due to keepalive timeout!
+[03:42:21] [Server thread/INFO]: naran_jita lost connection: Timed out
+[03:42:21] [Server thread/INFO]: naran_jita left the game
+[03:42:56] [User Authenticator #3/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[03:42:57] [Server thread/INFO]: naran_jita joined the game
+[03:42:57] [Server thread/INFO]: naran_jita[/127.204.202.113:53755] logged in with entity id 11474 at ([world]671.2697017412131, 64.0, -246.19319371046996)
+[03:43:02] [Async Chat Thread - #0/INFO]: [Not Secure] <naran_jita> llamame
+[03:43:28] [Async Chat Thread - #0/INFO]: [Not Secure] <naran_jita> ya te llamo yo
+[03:48:37] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
