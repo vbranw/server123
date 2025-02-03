@@ -312,6 +312,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-02-02 02:46:33 +0000",
+      "minecraft:phantom": "2025-02-03 03:29:34 +0000",
       "minecraft:spider": "2025-02-03 03:09:14 +0000",
       "minecraft:zombie": "2025-02-02 02:35:58 +0000",
       "minecraft:creeper": "2025-02-03 02:50:13 +0000",
@@ -1133,6 +1134,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-02-03 03:34:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-02-03 03:21:30 +0000"
@@ -1178,6 +1185,12 @@
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-02-03 03:13:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-02-03 03:34:24 +0000"
     },
     "done": true
   },
@@ -1253,6 +1266,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-02-03 03:36:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-02-03 02:33:07 +0000"
@@ -1270,6 +1289,12 @@
       "has_string": "2025-02-03 03:09:15 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2025-02-03 03:32:47 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
@@ -1373,6 +1398,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-02-03 03:36:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2025-02-03 02:33:07 +0000"
@@ -1388,6 +1419,12 @@
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-02-03 03:02:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-02-03 03:34:24 +0000"
     },
     "done": true
   },
@@ -1544,6 +1581,12 @@
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-02-03 02:33:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-02-03 03:32:47 +0000"
     },
     "done": true
   },
