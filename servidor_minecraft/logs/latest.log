@@ -89,3 +89,8 @@
 [18:17:18] [Server thread/INFO]: naran_jita has made the advancement [The Parrots and the Bats]
 [18:31:28] [Server thread/INFO]: naran_jita lost connection: Timed out
 [18:31:28] [Server thread/INFO]: naran_jita left the game
+[20:37:14] [User Authenticator #1/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[20:37:15] [Server thread/INFO]: naran_jita joined the game
+[20:37:15] [Server thread/INFO]: naran_jita[/127.226.220.221:56283] logged in with entity id 10000 at ([world]696.5686889967924, 63.0, -1217.3885042961947)
+[20:39:33] [Server thread/INFO]: naran_jita lost connection: Disconnected
+[20:39:33] [Server thread/INFO]: naran_jita left the game
