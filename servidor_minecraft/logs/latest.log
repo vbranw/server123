@@ -140,3 +140,11 @@
 [03:43:02] [Async Chat Thread - #0/INFO]: [Not Secure] <naran_jita> llamame
 [03:43:28] [Async Chat Thread - #0/INFO]: [Not Secure] <naran_jita> ya te llamo yo
 [03:48:37] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
+[03:54:23] [Server thread/INFO]: naran_jita lost connection: Disconnected
+[03:54:23] [Server thread/INFO]: naran_jita left the game
+[03:54:35] [User Authenticator #4/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[03:54:36] [Server thread/INFO]: naran_jita joined the game
+[03:54:36] [Server thread/INFO]: naran_jita[/127.204.202.113:51771] logged in with entity id 13423 at ([world]786.6567866522815, 69.0, -531.1344666459694)
+[03:59:09] [Async Chat Thread - #2/INFO]: [Not Secure] <david_gumer123> 695 63 -240
+[03:59:38] [Server thread/INFO]: david_gumer123 lost connection: Disconnected
+[03:59:38] [Server thread/INFO]: david_gumer123 left the game

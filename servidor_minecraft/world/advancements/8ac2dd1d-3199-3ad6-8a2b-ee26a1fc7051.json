@@ -328,7 +328,9 @@
       "cooked_chicken": "2025-02-02 01:56:24 +0000",
       "rotten_flesh": "2025-02-03 03:14:38 +0000",
       "cooked_mutton": "2025-02-03 02:41:31 +0000",
-      "sweet_berries": "2025-02-03 02:31:09 +0000"
+      "potato": "2025-02-03 03:51:31 +0000",
+      "sweet_berries": "2025-02-03 02:31:09 +0000",
+      "porkchop": "2025-02-03 03:58:14 +0000"
     },
     "done": false
   },
@@ -1599,6 +1601,60 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2025-02-03 03:37:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-02-03 03:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-02-03 03:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-02-03 03:57:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-02-03 03:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-02-03 03:57:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-02-03 03:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-02-03 03:57:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-02-03 03:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-02-03 03:57:13 +0000"
     },
     "done": true
   },
