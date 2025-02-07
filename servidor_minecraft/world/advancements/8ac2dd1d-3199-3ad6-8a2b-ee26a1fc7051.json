@@ -11,6 +11,7 @@
       "minecraft:forest": "2025-02-02 01:43:01 +0000",
       "minecraft:taiga": "2025-02-02 01:53:17 +0000",
       "minecraft:river": "2025-02-02 01:50:42 +0000",
+      "minecraft:meadow": "2025-02-07 03:20:51 +0000",
       "minecraft:lush_caves": "2025-02-03 02:40:49 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-02-02 02:00:26 +0000",
       "minecraft:plains": "2025-02-03 18:09:21 +0000"
@@ -1859,6 +1860,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-02-07 03:28:31 +0000",
       "minecraft:nether_wastes": "2025-02-07 03:12:55 +0000",
       "minecraft:soul_sand_valley": "2025-02-07 03:12:33 +0000"
     },
@@ -1882,6 +1884,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-02-07 03:28:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-02-07 03:15:48 +0000"
@@ -1891,6 +1899,18 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-02-07 02:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-02-07 03:28:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-02-07 03:28:02 +0000"
     },
     "done": true
   },
