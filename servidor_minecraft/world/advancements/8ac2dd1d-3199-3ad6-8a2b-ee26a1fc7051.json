@@ -1791,6 +1791,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2025-02-03 18:22:39 +0000",
+      "minecraft:chicken": "2025-02-07 02:08:39 +0000",
       "minecraft:pig": "2025-02-03 18:17:18 +0000"
     },
     "done": false
@@ -1834,6 +1835,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-02-07 01:51:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-02-07 02:05:48 +0000"
     },
     "done": true
   },
