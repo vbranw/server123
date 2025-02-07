@@ -506,6 +506,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:tabby": "2025-02-07 01:50:55 +0000",
       "minecraft:jellie": "2025-02-02 02:15:47 +0000",
       "minecraft:british_shorthair": "2025-02-03 18:11:29 +0000"
     },
@@ -1827,6 +1828,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-02-03 18:26:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-02-07 01:51:03 +0000"
     },
     "done": true
   },
