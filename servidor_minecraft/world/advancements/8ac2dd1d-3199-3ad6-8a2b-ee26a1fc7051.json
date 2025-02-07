@@ -508,6 +508,7 @@
     "criteria": {
       "minecraft:tabby": "2025-02-07 01:50:55 +0000",
       "minecraft:jellie": "2025-02-02 02:15:47 +0000",
+      "minecraft:ragdoll": "2025-02-07 02:30:38 +0000",
       "minecraft:british_shorthair": "2025-02-03 18:11:29 +0000"
     },
     "done": false
@@ -1835,6 +1836,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-02-07 01:51:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-02-07 02:34:15 +0000"
     },
     "done": true
   },
