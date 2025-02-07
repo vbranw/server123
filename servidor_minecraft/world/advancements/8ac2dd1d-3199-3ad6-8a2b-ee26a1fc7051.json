@@ -328,11 +328,13 @@
     "criteria": {
       "cooked_porkchop": "2025-02-02 02:01:22 +0000",
       "apple": "2025-02-02 01:54:28 +0000",
+      "bread": "2025-02-07 03:52:23 +0000",
       "cooked_chicken": "2025-02-02 01:56:24 +0000",
       "rotten_flesh": "2025-02-03 03:14:38 +0000",
       "cooked_mutton": "2025-02-03 02:41:31 +0000",
       "potato": "2025-02-03 03:51:31 +0000",
       "sweet_berries": "2025-02-03 02:31:09 +0000",
+      "baked_potato": "2025-02-07 03:56:43 +0000",
       "porkchop": "2025-02-03 03:58:14 +0000"
     },
     "done": false
@@ -535,6 +537,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-02-02 02:48:03 +0000",
+      "minecraft:enderman": "2025-02-07 03:53:39 +0000",
       "minecraft:spider": "2025-02-02 02:48:08 +0000",
       "minecraft:zombie": "2025-02-02 02:35:35 +0000",
       "minecraft:creeper": "2025-02-02 02:36:12 +0000",
@@ -1859,6 +1862,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-02-07 02:34:15 +0000"
@@ -1869,7 +1878,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-02-07 03:28:31 +0000",
       "minecraft:nether_wastes": "2025-02-07 03:12:55 +0000",
-      "minecraft:soul_sand_valley": "2025-02-07 03:12:33 +0000"
+      "minecraft:soul_sand_valley": "2025-02-07 03:12:33 +0000",
+      "minecraft:warped_forest": "2025-02-07 03:53:14 +0000"
     },
     "done": false
   },
@@ -1891,9 +1901,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-02-07 03:28:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
     },
     "done": true
   },
@@ -1909,6 +1937,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-02-07 02:05:48 +0000"
@@ -1918,6 +1958,18 @@
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2025-02-07 03:40:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-02-07 03:59:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
     },
     "done": true
   },
@@ -1933,6 +1985,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2025-02-07 03:35:46 +0000"
@@ -1942,6 +2000,12 @@
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
       "has_quartz": "2025-02-07 03:13:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-02-07 03:59:07 +0000"
     },
     "done": true
   },
@@ -1972,6 +2036,12 @@
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2025-02-07 03:13:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-02-07 03:56:07 +0000"
     },
     "done": true
   },
