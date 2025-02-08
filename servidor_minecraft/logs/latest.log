@@ -1,376 +1,87 @@
-[01:50:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:50:23] [ServerMain/INFO]: Loaded 1174 recipes
-[01:50:24] [ServerMain/INFO]: Loaded 1271 advancements
-[01:50:24] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[01:50:24] [Server thread/INFO]: Loading properties
-[01:50:24] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[01:50:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:50:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:50:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:56:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:56:09] [ServerMain/INFO]: Loaded 1174 recipes
+[21:56:10] [ServerMain/INFO]: Loaded 1271 advancements
+[21:56:10] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:56:10] [Server thread/INFO]: Loading properties
+[21:56:10] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[21:56:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:56:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:56:12] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:50:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:50:26] [Server thread/INFO]: Default game type: SURVIVAL
-[01:50:26] [Server thread/INFO]: Generating keypair
-[01:50:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:50:27] [Server thread/INFO]: Using epoll channel type
-[01:50:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:50:27] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:50:27] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[01:50:28] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[01:50:28] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[01:50:28] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
-[01:50:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:50:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:50:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:50:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:50:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:50:28] [Server thread/INFO]: Preparing level "world"
-[01:50:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:50:29] [Server thread/INFO]: Time elapsed: 249 ms
-[01:50:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:50:29] [Server thread/INFO]: Time elapsed: 169 ms
-[01:50:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:50:29] [Server thread/INFO]: Time elapsed: 67 ms
-[01:50:29] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[01:50:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
-[01:50:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[01:50:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[01:50:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[01:50:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[01:50:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[01:50:31] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
-[01:50:31] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[01:50:31] [Server thread/INFO]: [JustTPA] bStats enabled
-[01:50:31] [Server thread/INFO]: [JustTPA] Checking for updates...
-[01:50:31] [Server thread/INFO]: Running delayed init tasks
-[01:50:31] [Server thread/INFO]: Done (6.951s)! For help, type "help"
-[01:50:31] [Server thread/INFO]: Timings Reset
-[01:50:31] [Craft Scheduler Thread - 1 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
-[01:50:35] [User Authenticator #0/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
-[01:50:37] [Server thread/INFO]: naran_jita joined the game
-[01:50:37] [Server thread/INFO]: naran_jita[/127.25.70.134:36033] logged in with entity id 235 at ([world]689.412238491533, 63.0, -1211.779171617938)
-[02:30:05] [User Authenticator #1/INFO]: UUID of player david_gumer123 is 851ff068-2a0e-3c5c-ae31-3a7bfb4002db
-[02:30:06] [Server thread/INFO]: david_gumer123 joined the game
-[02:30:06] [Server thread/INFO]: david_gumer123[/127.37.227.242:55799] logged in with entity id 5255 at ([world]682.0262208606285, 63.0, -258.2834675067945)
-[02:30:13] [Async Chat Thread - #0/INFO]: [Not Secure] <naran_jita> llamada?
-[02:32:23] [Async Chat Thread - #1/INFO]: [Not Secure] <naran_jita> hola?
-[02:32:35] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> te esty llamdanbodo
-[02:33:12] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> hola
-[02:33:17] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> oe
-[02:33:27] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> porq no se callo el aldeano
-[02:33:30] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> :(
-[02:33:40] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> a
-[02:33:49] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> si porq
-[02:33:55] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> no
-[02:34:04] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> duerme}
-[02:34:15] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> son casi las 12
-[02:34:31] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> hacete tp
-[02:34:46] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> 646 53 -240
-[02:34:49] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> dondes tu?
-[02:35:07] [Async Chat Thread - #1/INFO]: [Not Secure] <david_gumer123> XD
-[02:36:17] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> bien creo
-[02:36:19] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> ns
-[02:36:21] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> no hice nada
-[02:36:45] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> y tu
-[02:37:02] [Async Chat Thread - #3/INFO]: [Not Secure] <david_gumer123> aja
-[02:38:08] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> eh
-[02:38:17] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> como no te pude ahacer un escrito
-[02:38:24] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> sos boba¿
-[02:38:28] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> pero
-[02:38:32] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> ustedes pagan por el turno
-[02:38:37] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> no pueden decirles que no
-[02:38:42] [Async Chat Thread - #6/INFO]: [Not Secure] <david_gumer123> y que no pueda venir
-[02:38:45] [Async Chat Thread - #6/INFO]: [Not Secure] <david_gumer123> tienen que reclamar
-[02:39:07] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> aja
-[02:39:10] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> el turno pues
-[02:39:13] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> oq
-[02:39:21] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> ahi no pagan el turno?
-[02:39:28] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> pues turno para ir con el doctor
-[02:39:30] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> tipo
-[02:39:38] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> para tramutamalogia
-[02:39:42] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> psicolgoia
-[02:39:47] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> no¿
-[02:39:52] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> y como meirda funciona
-[02:39:55] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> que van al hospital
-[02:39:58] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> y dice tata
-[02:40:00] [Async Chat Thread - #5/INFO]: [Not Secure] <david_gumer123> y ya?
-[02:41:16] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> a
-[02:41:25] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> no sigo sin entender
-[02:41:30] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> para
-[02:41:36] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> porque fuiste al hospital?
-[02:41:56] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> con mas razon no entiendo
-[02:42:14] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> que como funciona ahi el atender
-[02:42:15] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> tipo
-[02:42:16] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> aca
-[02:42:20] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> vos pagas por un turnoi
-[02:42:21] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> ns
-[02:42:23] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> la pediatra
-[02:42:25] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> vos pgas
-[02:42:33] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> y tenes que esperar a tu turno
-[02:42:39] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> si pagaste tercero
-[02:42:54] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> vas a tener q esperar a q las otras dos personas de adelante entre
-[02:43:00] [Async Chat Thread - #7/INFO]: [Not Secure] <david_gumer123> y vos vas tercero
-[02:44:02] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> si
-[02:44:06] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> pero eso es en hospital
-[02:44:29] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> y lo otro como se llama?
-[02:44:56] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> no lo otro
-[02:45:12] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> nada
-[02:45:14] [Async Chat Thread - #9/INFO]: [Not Secure] <david_gumer123> nada
-[02:48:08] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> ya fuiste a la uni}
-[02:48:10] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> o prepa?
-[02:48:19] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> porq
-[02:48:27] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> no deberias de ir a la uni?
-[02:48:37] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> a
-[02:49:00] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> aaa okey
-[02:49:31] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> -200
-[02:49:52] [Async Chat Thread - #11/INFO]: [Not Secure] <david_gumer123> porq te fuiste tan lejos
-[02:50:57] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> perfecto
-[02:51:17] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> okey
-[02:51:36] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> esq sabes lo q pasa
-[02:51:43] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> esq siempre q juego con alguien
-[02:51:47] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> avanzo muy lento
-[02:51:52] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> me di cuenta de eso
-[02:51:59] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> ayer me hice un mundo survival
-[02:52:08] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> de la 1.21
-[02:52:19] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> digo entre un server de otros amigos
-[02:52:23] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> donde juge solo
-[02:52:29] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> y en 2 horas ya tengo mas q aca
-[02:52:54] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> y luego ante ayer juge e un mundo survival de 1.21 y en menos de 1 horas ya tenia mas que aca
-[02:52:55] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> XD
-[02:53:14] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> ni eso
-[02:53:39] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> no
-[02:53:55] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> ;D
-[02:54:25] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> conseguiste hierr otmb¿
-[02:55:16] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-[02:55:27] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> tienes 1 vaca entonces?
-[02:55:49] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> y que vamos a hacer con ella
-[02:56:01] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> torturarla
-[02:57:00] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> a
-[02:57:03] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> ya ññegaste
-[02:57:21] [Async Chat Thread - #13/INFO]: [Not Secure] <david_gumer123> dame el 1 de cuero
-[02:58:57] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> no
-[02:59:01] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> dame el carbon
-[02:59:05] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> y l cocino
-[02:59:15] [Server thread/INFO]: Villager EntityVillager['Armorer'/5339, uuid='06173a8a-0271-4af8-9cab-e5f5b93aa977', l='ServerLevel[world]', x=652.30, y=63.00, z=-234.70, cpos=[40, -15], tl=214521, v=true] died, message: 'Armorer was slain by Drowned'
-[02:59:23] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> ya habia boba
-[02:59:36] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> y el aldeano
-[02:59:49] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> la puta madre
-[03:00:05] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> NOOOOOOOOOOOO
-[03:00:10] [Async Chat Thread - #15/INFO]: [Not Secure] <david_gumer123> se murio otr
-[03:02:38] [Async Chat Thread - #17/INFO]: [Not Secure] <david_gumer123> contigo
-[03:03:09] [Server thread/INFO]: david_gumer123 has made the advancement [Ice Bucket Challenge]
-[03:03:32] [Async Chat Thread - #17/INFO]: [Not Secure] <david_gumer123> obvio q me divierto
-[03:04:01] [Async Chat Thread - #17/INFO]: [Not Secure] <david_gumer123> pero solamente cuando haces algo mal o cuando en roblox hacemos algo mal
-[03:04:04] [Async Chat Thread - #17/INFO]: [Not Secure] <david_gumer123> se entiende¿
-[03:04:50] [Async Chat Thread - #17/INFO]: [Not Secure] <david_gumer123> oa
-[03:06:38] [Async Chat Thread - #19/INFO]: [Not Secure] <naran_jita> no entiendo a decir verdad
-[03:06:43] [Async Chat Thread - #19/INFO]: [Not Secure] <david_gumer123> XD
-[03:08:04] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> e
-[03:08:05] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> porq
-[03:08:18] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> q dije de malo
-[03:08:41] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> yo tampoco souy una persona graciosa
-[03:08:57] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> pero vane wn
-[03:09:05] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> ambos somos medio serios
-[03:09:47] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> nao nao
-[03:09:50] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> las mentiras tan mal
-[03:09:55] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> siempre honeto
-[03:10:30] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> no eso no
-[03:10:32] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> me refieron
-[03:10:37] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> a ser gracioso
-[03:10:43] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> tipo chistes y asi
-[03:11:13] [Server thread/INFO]: david_gumer123 has made the advancement [We Need to Go Deeper]
-[03:11:38] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> eh
-[03:11:43] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> no dije eso
-[03:12:19] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> una cosa es entretenerse y otra cosa es divertirse
-[03:12:30] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> vos me ves que me cago de risa ahora¿
-[03:12:33] [Server thread/INFO]: naran_jita has made the advancement [We Need to Go Deeper]
-[03:12:44] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> ME REFIERO
-[03:13:07] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> a que no sos aburrida pero que la puedo pasar bien con vos con un par de risas se entiende
-[03:13:09] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> pero
-[03:13:35] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> se que me puedo cagar de risa mas con mi primo porq ambos tenemos el mismo humor y compatibilidad de chistes
-[03:13:55] [Server thread/INFO]: david_gumer123 fell from a high place
-[03:14:02] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> POR TU CUKPA
-[03:14:04] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> CULPA
-[03:14:14] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> mori ahi nomas
-[03:14:20] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> oe me ayudas
-[03:14:23] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> a no nada
-[03:14:45] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> tnia 32 niveles :(
-[03:15:19] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> picando
-[03:16:06] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> eso es cuando no mueres despues de 6 horas jugando
-[03:16:33] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> oe q respawn de mierda
-[03:16:44] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> no hay salidad
-[03:17:00] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> pues tu ves un lugar para salir al esterior?
-[03:17:03] [Server thread/INFO]: naran_jita fell from a high place
-[03:17:07] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> XD
-[03:17:21] [Async Chat Thread - #21/INFO]: [Not Secure] <david_gumer123> me cai porq te estaba escriebiendo
-[03:18:37] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> exterior
-[03:18:43] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> oe
-[03:18:48] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> que mierda
-[03:18:52] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> mira esto
-[03:19:00] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:19:01] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> sube donde te moriste
-[03:19:04] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:19:20] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> y este potal
-[03:19:37] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> a mil bloques
-[03:20:07] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> hay dios
-[03:20:13] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> creo que no se reincio el mundo anterior
-[03:21:12] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> parece que overwolrd si se reinicio
-[03:21:15] [Async Chat Thread - #23/INFO]: [Not Secure] <david_gumer123> peo el nether no
-[03:22:33] [Async Chat Thread - #25/INFO]: [Not Secure] <david_gumer123> manza dorada
-[03:23:18] [Async Chat Thread - #25/INFO]: [Not Secure] <david_gumer123> crte q si
-[03:23:22] [Async Chat Thread - #25/INFO]: [Not Secure] <david_gumer123> a para
-[03:23:31] [Async Chat Thread - #25/INFO]: [Not Secure] <david_gumer123> pero hay que ver si estan looteadas o no
-[03:25:12] [Async Chat Thread - #27/INFO]: [Not Secure] <david_gumer123> vo so bobna
-[03:25:16] [Server thread/INFO]: naran_jita was fireballed by Ghast
-[03:25:19] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> XD
-[03:25:29] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:25:55] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> esperate hay cono 4 ghast
-[03:25:57] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:26:37] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> a donde vas
-[03:27:11] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> mnad
-[03:27:41] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> manda te dije
-[03:27:47] [Server thread/INFO]: david_gumer123 has made the advancement [Those Were the Days]
-[03:28:13] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> me voya poner modo spectator creo yo
-[03:28:22] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:28:22] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> si boba
-[03:28:30] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:28:31] [Server thread/INFO]: naran_jita has made the advancement [Those Were the Days]
-[03:28:37] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> pero te cuesrta mucho xd
-[03:28:53] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> entender las cosas we
-[03:29:25] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> como sanes
-[03:29:27] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> sabes
-[03:29:40] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> no boba
-[03:29:50] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> no viste los bloques de hueso?
-[03:29:57] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> eso lo habia agarrado
-[03:30:04] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> pero no se si los cofres sigen
-[03:30:10] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> por eso me quiero poner spectator
-[03:30:22] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> spectaro dijke
-[03:30:30] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> con full hierro no lelgo
-[03:30:42] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> como q porq
-[03:30:54] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> la ultima vez mori 10 veces
-[03:31:06] [Server thread/INFO]: david_gumer123 issued server command: /gamemode spectator
-[03:31:06] [Server thread/INFO]: [david_gumer123: Set own game mode to Spectator Mode]
-[03:31:31] [Server thread/INFO]: david_gumer123 issued server command: /gamemode survival
-[03:31:31] [Server thread/INFO]: [david_gumer123: Set own game mode to Survival Mode]
-[03:31:35] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> nop
-[03:31:39] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> no tienen nada
-[03:31:51] [Async Chat Thread - #28/INFO]: [Not Secure] <david_gumer123> solamente s equedaron las construccioones
-[03:31:58] [Server thread/INFO]: david_gumer123 issued server command: /gamemode spectator
-[03:31:58] [Server thread/INFO]: [david_gumer123: Set own game mode to Spectator Mode]
-[03:33:00] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:33:06] [Server thread/INFO]: david_gumer123 issued server command: /gamemode survival
-[03:33:06] [Server thread/INFO]: [david_gumer123: Set own game mode to Survival Mode]
-[03:33:11] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:33:55] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> falta explorar ahi
-[03:34:00] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> pero todavia no estamos lsito
-[03:34:07] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> voNO VAMOS
-[03:34:13] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> VAMOS CUAND ESTEMOS MAS CHETOS
-[03:34:19] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> no quiero morir otras 10 veces
-[03:34:45] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> igual puedo entrar yo solo creo
-[03:35:09] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> JASJSAJ y todavia pregunta
-[03:35:40] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> JASJJSA pero es q wn
-[03:36:29] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> de las 7 meurtes q tuve eran porq no me decis bien donde estaban los mobs, y q explorabas todo tu sola y me dejabas q me rompieran los bloques tu
-[03:36:41] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> ten paciencia coño
-[03:37:02] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> mmmmmmmmmmmmmmmmmmmmmmmmmm
-[03:37:09] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> te acordsa donde era la dugneon¿
-[03:37:28] [Async Chat Thread - #29/INFO]: [Not Secure] <david_gumer123> aja pero no me acuerdo
-[03:38:16] [Server thread/INFO]: david_gumer123 issued server command: /tpa
-[03:38:25] [Server thread/INFO]: david_gumer123 issued server command: /tpa naran_jita
-[03:38:31] [Server thread/INFO]: naran_jita issued server command: /tpaccept
-[03:40:35] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> donde estas
-[03:41:00] [Server thread/INFO]: david_gumer123 issued server command: /tpa naran_jita
-[03:41:12] [Server thread/INFO]: naran_jita issued server command: /tpaccept
-[03:41:32] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> para nada
-[03:41:53] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> aver ven aqui
-[03:41:59] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> y usa tus super chunks
-[03:42:11] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:42:16] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:42:40] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> una bastion boba
-[03:42:51] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> e sotra
-[03:42:55] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> nopt
-[03:43:05] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> no me acuerdo donde mierda estaba la dungeon
-[03:43:24] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> ya se
-[03:43:29] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> ya lo sabia del tro server
-[03:43:54] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> no las guardes
-[03:43:58] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> es faci lde ubciar
-[03:44:19] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> lo que no se es la dungeonw
-[03:44:43] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> era la mas cerca que habia
-[03:44:56] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> no te acordsa que de ahi transportamos gatos de 2 mil bloques?
-[03:45:12] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> pero no me acuerdo el camino
-[03:45:36] [Server thread/INFO]: david_gumer123 issued server command: /tpa naran_jita
-[03:45:43] [Server thread/INFO]: naran_jita issued server command: /tpaccept
-[03:45:48] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> no
-[03:45:56] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> ese hiciste tu para escapar
-[03:45:59] [Async Chat Thread - #31/INFO]: [Not Secure] <david_gumer123> de los piglins
-[03:47:02] [Async Chat Thread - #33/INFO]: [Not Secure] <david_gumer123> espera veo las screasot
-[03:47:06] [Async Chat Thread - #33/INFO]: [Not Secure] <david_gumer123> screansho
-[03:47:11] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:48:23] [Async Chat Thread - #35/INFO]: [Not Secure] <david_gumer123> -339 67 458
-[03:51:07] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:51:10] [Async Chat Thread - #37/INFO]: [Not Secure] <david_gumer123> las de a dungeon
-[03:51:43] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
-[03:52:49] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> q
-[03:52:53] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> no se
-[03:53:30] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> ahi esa
-[03:55:02] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> ue raro que no se halla guardado la construccion de aca
-[03:55:06] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> a verdad
-[03:55:10] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> seguramente es porque
-[03:55:15] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> fue despues del 12
-[03:55:23] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> dejame ve rsi hay loot
-[03:55:26] [Server thread/INFO]: david_gumer123 issued server command: /gamemode spectator
-[03:55:26] [Server thread/INFO]: [david_gumer123: Set own game mode to Spectator Mode]
-[03:55:32] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> del backup boba
-[03:55:37] [Server thread/INFO]: david_gumer123 has made the advancement [A Terrible Fortress]
-[03:55:44] [Server thread/INFO]: david_gumer123 has completed the challenge [Hot Tourist Destinations]
-[03:56:14] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> creo que si hay llot
-[03:56:24] [Server thread/INFO]: david_gumer123 issued server command: /gamemode survival
-[03:56:24] [Server thread/INFO]: [david_gumer123: Set own game mode to Survival Mode]
-[03:56:27] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> ten
-[03:56:45] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> igual yo volveria
-[03:56:53] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> me tengo q ir a dormir we
-[03:57:09] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> volvemos a cas
-[03:57:24] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> me muero
-[03:57:33] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> lsito
-[03:58:25] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> a veces
-[03:58:32] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> pero es mas entretenido
-[03:58:51] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> y vos
-[03:59:18] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> y tu fte divierete
-[03:59:42] [Async Chat Thread - #41/INFO]: [Not Secure] <david_gumer123> aja
-[03:59:44] [Server thread/INFO]: naran_jita issued server command: /tpa david_gumer123
-[03:59:53] [Server thread/INFO]: david_gumer123 issued server command: /tpaccept
+[21:56:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:56:12] [Server thread/INFO]: Default game type: SURVIVAL
+[21:56:12] [Server thread/INFO]: Generating keypair
+[21:56:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:56:13] [Server thread/INFO]: Using epoll channel type
+[21:56:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:56:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[21:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[21:56:13] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[21:56:13] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[21:56:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:56:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:56:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:56:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:56:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:56:13] [Server thread/INFO]: Preparing level "world"
+[21:56:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:56:14] [Server thread/INFO]: Time elapsed: 283 ms
+[21:56:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:56:14] [Server thread/INFO]: Time elapsed: 193 ms
+[21:56:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:56:14] [Server thread/INFO]: Time elapsed: 77 ms
+[21:56:14] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[21:56:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[21:56:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:56:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[21:56:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:56:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[21:56:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[21:56:15] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[21:56:16] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[21:56:16] [Server thread/INFO]: [JustTPA] bStats enabled
+[21:56:16] [Server thread/INFO]: [JustTPA] Checking for updates...
+[21:56:16] [Server thread/INFO]: Running delayed init tasks
+[21:56:16] [Server thread/INFO]: Done (5.527s)! For help, type "help"
+[21:56:16] [Server thread/INFO]: Timings Reset
+[21:56:16] [Craft Scheduler Thread - 1 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[21:56:45] [User Authenticator #0/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[21:56:46] [Server thread/INFO]: naran_jita joined the game
+[21:56:46] [Server thread/INFO]: naran_jita[/127.25.70.134:39081] logged in with entity id 238 at ([world]645.6953295701327, 63.0, -239.55426805163333)

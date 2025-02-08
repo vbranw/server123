@@ -1737,6 +1737,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-02-07 04:02:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-02-07 03:27:38 +0000",
@@ -1774,6 +1780,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-02-07 03:03:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-02-07 04:03:36 +0000"
     },
     "done": true
   },
