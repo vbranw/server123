@@ -1798,7 +1798,8 @@
     "criteria": {
       "minecraft:cow": "2025-02-03 18:22:39 +0000",
       "minecraft:chicken": "2025-02-07 02:08:39 +0000",
-      "minecraft:pig": "2025-02-03 18:17:18 +0000"
+      "minecraft:pig": "2025-02-03 18:17:18 +0000",
+      "minecraft:sheep": "2025-02-09 21:18:15 +0000"
     },
     "done": false
   },
