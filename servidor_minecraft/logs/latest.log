@@ -1,36 +1,87 @@
-[00:39:16] [Server thread/INFO]: naran_jita has made the advancement [A Seedy Place]
-[01:05:00] [Server thread/INFO]: naran_jita lost connection: Disconnected
-[01:05:00] [Server thread/INFO]: naran_jita left the game
-[01:06:39] [User Authenticator #1/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
-[01:06:39] [Server thread/INFO]: naran_jita joined the game
-[01:06:39] [Server thread/INFO]: naran_jita[/127.25.70.134:37981] logged in with entity id 11700 at ([world]655.2768523952981, 63.0, -271.07935341021835)
-[02:22:12] [Server thread/INFO]: naran_jita lost connection: Disconnected
-[02:22:12] [Server thread/INFO]: naran_jita left the game
-[02:22:36] [Server thread/INFO]: Stopping server
-[02:22:36] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
-[02:22:36] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[02:22:36] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
-[02:22:36] [Server thread/INFO]: Saving players
-[02:22:36] [Server thread/INFO]: Saving worlds
-[02:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 146 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[02:22:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 59 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[02:22:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:22:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:22:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:22:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:22:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:22:36] [Server thread/INFO]: Flushing Chunk IO
-[02:22:36] [Server thread/INFO]: Closing Thread Pool
-[02:22:36] [Server thread/INFO]: Closing Server
+[18:06:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:06:58] [ServerMain/INFO]: Loaded 1174 recipes
+[18:06:59] [ServerMain/INFO]: Loaded 1271 advancements
+[18:06:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:06:59] [Server thread/INFO]: Loading properties
+[18:06:59] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[18:07:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:07:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:07:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:07:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:07:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:07:01] [Server thread/INFO]: Generating keypair
+[18:07:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:07:01] [Server thread/INFO]: Using epoll channel type
+[18:07:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:07:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[18:07:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/server123/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[18:07:01] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[18:07:01] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[18:07:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:07:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:07:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:07:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:07:01] [Server thread/INFO]: Preparing level "world"
+[18:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:07:02] [Server thread/INFO]: Time elapsed: 286 ms
+[18:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:07:02] [Server thread/INFO]: Time elapsed: 154 ms
+[18:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:07:02] [Server thread/INFO]: Time elapsed: 79 ms
+[18:07:02] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[18:07:03] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[18:07:03] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[18:07:03] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[18:07:03] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[18:07:03] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[18:07:03] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[18:07:03] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[18:07:03] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[18:07:03] [Server thread/INFO]: [JustTPA] bStats enabled
+[18:07:03] [Server thread/INFO]: [JustTPA] Checking for updates...
+[18:07:03] [Server thread/INFO]: Running delayed init tasks
+[18:07:03] [Server thread/INFO]: Done (4.394s)! For help, type "help"
+[18:07:03] [Server thread/INFO]: Timings Reset
+[18:07:04] [Craft Scheduler Thread - 1 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[18:07:33] [User Authenticator #0/INFO]: UUID of player naran_jita is 8ac2dd1d-3199-3ad6-8a2b-ee26a1fc7051
+[18:07:34] [Server thread/INFO]: naran_jita joined the game
+[18:07:34] [Server thread/INFO]: naran_jita[/127.25.70.134:53791] logged in with entity id 235 at ([world]648.0113258955937, 68.0, -264.8049071271004)
