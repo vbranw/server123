@@ -2057,15 +2057,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
+  "minecraft:recipes/misc/brick": {
     "criteria": {
-      "has_quartz_block": "2025-02-08 23:05:03 +0000"
+      "has_clay_ball": "2025-02-08 22:11:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-02-08 22:11:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-02-08 22:13:23 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-02-08 22:42:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-02-08 23:05:03 +0000"
     },
     "done": true
   },
@@ -2099,33 +2117,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/brick": {
-    "criteria": {
-      "has_clay_ball": "2025-02-08 22:11:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-02-08 23:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-02-08 22:13:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-02-08 23:05:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2025-02-08 22:11:33 +0000"
     },
     "done": true
   },
