@@ -333,6 +333,7 @@
       "rotten_flesh": "2025-02-03 03:14:38 +0000",
       "cooked_mutton": "2025-02-03 02:41:31 +0000",
       "potato": "2025-02-03 03:51:31 +0000",
+      "glow_berries": "2025-02-10 03:43:12 +0000",
       "sweet_berries": "2025-02-03 02:31:09 +0000",
       "baked_potato": "2025-02-07 03:56:43 +0000",
       "porkchop": "2025-02-03 03:58:14 +0000"
@@ -544,6 +545,7 @@
       "minecraft:creeper": "2025-02-02 02:36:12 +0000",
       "minecraft:drowned": "2025-02-03 02:48:12 +0000",
       "minecraft:zombie_villager": "2025-02-10 03:37:21 +0000",
+      "minecraft:slime": "2025-02-10 03:47:57 +0000",
       "minecraft:hoglin": "2025-02-07 03:33:40 +0000"
     },
     "done": false
@@ -2480,6 +2482,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-02-10 03:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-02-10 03:39:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2025-02-10 03:14:28 +0000"
@@ -2501,6 +2515,18 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2025-02-10 03:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-02-10 03:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-02-10 03:48:00 +0000"
     },
     "done": true
   },
@@ -2537,6 +2563,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2025-02-10 03:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-02-10 03:48:00 +0000"
     },
     "done": true
   },
