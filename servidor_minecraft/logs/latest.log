@@ -371,3 +371,50 @@
 [04:10:47] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> XD
 [04:10:49] [Async Chat Thread - #39/INFO]: [Not Secure] <naran_jita> a
 [04:11:02] [Async Chat Thread - #39/INFO]: [Not Secure] <naran_jita> es 640 -200
+[04:11:30] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> profin
+[04:11:48] [Async Chat Thread - #39/INFO]: [Not Secure] <david_gumer123> no me siento nada satisfecho per obueno
+[04:11:58] [Async Chat Thread - #39/INFO]: [Not Secure] <naran_jita> KASJKAJSKJASKJASKJ
+[04:13:54] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> q
+[04:14:06] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> ta bien
+[04:15:03] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> tenemos varas?
+[04:15:09] [Async Chat Thread - #40/INFO]: [Not Secure] <naran_jita> de que?
+[04:15:15] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> de que van a hacer
+[04:15:27] [Async Chat Thread - #40/INFO]: [Not Secure] <naran_jita> :( pero hablame bonito
+[04:15:28] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> las unicas varas que existen
+[04:15:32] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> JASJSAJ
+[04:15:57] [Async Chat Thread - #40/INFO]: [Not Secure] <naran_jita> no hay nada
+[04:16:05] [Async Chat Thread - #40/INFO]: [Not Secure] <david_gumer123> varas de blaze
+[04:18:06] [Async Chat Thread - #42/INFO]: [Not Secure] <naran_jita> oraaaaaaaaaaaaaaaaa
+[04:18:19] [Async Chat Thread - #42/INFO]: [Not Secure] <naran_jita> como hiciste esoooooooo
+[04:18:32] [Server thread/INFO]: david_gumer123 lost connection: Disconnected
+[04:18:32] [Server thread/INFO]: david_gumer123 left the game
+[04:18:36] [Server thread/INFO]: naran_jita lost connection: Disconnected
+[04:18:36] [Server thread/INFO]: naran_jita left the game
+[04:18:52] [Server thread/INFO]: Stopping server
+[04:18:52] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[04:18:52] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[04:18:52] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[04:18:53] [Server thread/INFO]: Saving players
+[04:18:53] [Server thread/INFO]: Saving worlds
+[04:18:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 93 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[04:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:18:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 67 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[04:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:18:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:18:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:18:53] [Server thread/INFO]: Flushing Chunk IO
+[04:18:53] [Server thread/INFO]: Closing Thread Pool
+[04:18:53] [Server thread/INFO]: Closing Server
